@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "functional-core:lib"
+
+    - path: "./app/Main.hs"
+      component: "functional-core:exe:functional-core-exe"
+
+    - path: "./app/Paths_functional_core.hs"
+      component: "functional-core:exe:functional-core-exe"
+
+    - path: "./test"
+      component: "functional-core:test:functional-core-test"
