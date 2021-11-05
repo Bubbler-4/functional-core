@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Language.Core.Defs
+      Language.Core.Exercises.Pprint
       Lib
       Util.Heap
   other-modules:
